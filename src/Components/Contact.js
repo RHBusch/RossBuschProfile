@@ -1,5 +1,7 @@
 import React from "react"
 import { MailIcon } from "@heroicons/react/solid";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faMedium, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 const Contacts = () => {
 
@@ -76,10 +78,16 @@ const Contacts = () => {
                         <h2 className="text-white sm:text-4xl text 3xl mb-1 font-medium title-font">
                             Contact Me
 
-                            <span> <MailIcon className="w-8 inline-block mb-1 fill-green-500" /> </span>
+                            <span>  </span>
+                            <div>
+                                <a href="https://medium.com/@Ross.Busch" target="_blank" rel="noreferrer"> <i><FontAwesomeIcon icon={faMedium} size="l" color="#22c55e" className="p-2 mx-auto inline-block w-15 mb-0 fill-green-500" /></i></a>
+                                <a href="https://mobile.twitter.com/rossbusch" target="_blank" rel="noreferrer"> <i><FontAwesomeIcon icon={faTwitter} size="l" color="#22c55e" className="p-2 mx-auto inline-block w-15 mb-0 fill-green-500" /></i></a>
+                                <a href="https://www.linkedin.com/in/ross-busch-1860191ab/" target="_blank" rel="noreferrer"> <i><FontAwesomeIcon icon={faLinkedinIn} size="l" color="#22c55e" className="p-2 mx-auto inline-block w-15 mb-0 fill-green-500" /></i></a>
+
+                            </div>
                         </h2>
                         <p className="leading-relaxed mb-5">
-                            Want to collaborate on an awesome project? Chat through a new idea or ask me a question? Give me a shout here!
+                            Want to collaborate on an awesome project? Chat through a new idea or ask me a question? Ping me on my socials ^^^ or Give me a shout here!
                         </p>
                         <div className="relative mb-4">
                             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -123,9 +131,12 @@ const Contacts = () => {
                         </button>
 
 
+
                     </form>
 
+
                 </div>
+
             </div>
 
         </section>

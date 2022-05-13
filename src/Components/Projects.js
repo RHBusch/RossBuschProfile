@@ -1,4 +1,6 @@
 import { CodeIcon } from "@heroicons/react/solid";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import React from "react";
 import { projects } from "../data";
 //Test Git Comment
@@ -11,7 +13,6 @@ const Projects = () => {
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
                         My Work
                     </h1>
-
                 </div>
                 <div className="flex flex-wrap -m-4">
                     {projects.map((project) => (

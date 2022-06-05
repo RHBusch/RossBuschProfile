@@ -10,7 +10,7 @@ const About = () => {
                         Hey, I'm Ross!
                         <br className="hidden lg:inline-block" />
                         <br></br>
-                        <span> I <HeartIcon className="w-10 inline-block mb-4 animate-pulse fill-red-600 " /> </span> quality code.
+                        <span> I <HeartIcon className="w-10 inline-block mb-4 animate-pulse fill-red-600 " aria-label="Heart" /> </span> quality code.
                     </h1>
                     <p className="mb-8 leading-relaxed">
                         I'm a junior dev looking to support a team of good people
